@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Developer Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<!-- Parallax Home Section -->
+ <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Abdulhafiz</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonial">Testimonial</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="home" class="parallax d-flex align-items-center justify-content-center text-white">
+  <div class="text-center">
+    <h1>Welcome to My Portfolio</h1>
+    <p>I'm a Web Developer</p>
+    <a href="#about" class="btn btn-primary mt-3">Learn More</a>
+    <a href="#portfolio" class="btn btn-outline-light mt-3 ms-2">View Portfolio</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5 text-center">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>I’m a passionate web developer experienced in building responsive websites with HTML, CSS, JavaScript and frameworks like Bootstrap.</p>
+    <a href="#contact" class="btn btn-secondary mt-3">Get In Touch</a>
+  </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="py-5 text-center bg-light">
+  <div class="container">
+    <h2>Portfolio</h2>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <img src="assets/portfolio1.jpg" class="img-fluid" alt="Project 1">
+        <button class="btn btn-outline-primary mt-2">View Project</button>
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="assets/portfolio2.jpg" class="img-fluid" alt="Project 2">
+        <button class="btn btn-outline-primary mt-2">View Project</button>
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="assets/portfolio3.jpg" class="img-fluid" alt="Project 3">
+        <button class="btn btn-outline-primary mt-2">View Project</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Section with Owl Carousel -->
+<section id="gallery" class="py-5 text-center">
+  <div class="container">
+    <h2>Gallery</h2>
+    <div class="owl-carousel owl-theme">
+      <div><img src="assets/gallery1.jpg" class="img-fluid" alt=""></div>
+      <div><img src="assets/gallery2.jpg" class="img-fluid" alt=""></div>
+      <div><img src="assets/gallery3.jpg" class="img-fluid" alt=""></div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonial Section -->
+<section id="testimonial" class="py-5 text-center bg-light">
+  <div class="container">
+    <h2>Testimonials</h2>
+    <div class="testimonials-row">
+      <div class="testimonial-column">
+        “A reliable and skilled developer. Delivered exactly what we needed.”
+        <div class="blockquote-footer">Client A</div>
+      </div>
+      <div class="testimonial-column">
+        “Very professional and great communication. Highly recommend!”
+        <div class="blockquote-footer">Client B</div>
+      </div>
+      <div class="testimonial-column">
+        “Impressive design sense and strong technical skills.”
+        <div class="blockquote-footer">Client C</div>
+      </div>
+    </div>
+    <a href="#contact" class="btn btn-dark mt-4">Hire Me</a>
+  </div>
+</section>
+
+
+<!-- Contact Section with Google Map -->
+<section id="contact" class="py-5 text-center">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form>
+      <div class="mb-3"><input type="text" class="form-control" placeholder="Your Name"></div>
+      <div class="mb-3"><input type="email" class="form-control" placeholder="Your Email"></div>
+      <div class="mb-3"><textarea class="form-control" rows="4" placeholder="Your Message"></textarea></div>
+      <button type="submit" class="btn btn-success">Send Message</button>
+    </form>
+    <div class="mt-4">
+      <iframe src="https://www.google.com/maps/embed?..." width="100%" height="300" class="google-map" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
